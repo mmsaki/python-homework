@@ -33,8 +33,9 @@ Your resulting analysis should look similar to the following:
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
 
-## 3. Results.
+## 3. Final Results.
 
 Your final script should print the analysis to the terminal and export a text file with the results.
-* [Find completed assignment it here.](/PyBank/financial_analysis.txt) 
+* [Python Code with comments for this assignment (PyBank).](/PyBank/main.ipynb)
+* [Exported results for this assignment is here (financial_analysis.txt).](/PyBank/financial_analysis.txt) 
 
