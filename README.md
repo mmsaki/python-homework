@@ -20,7 +20,7 @@ Your task is to create a Python script that analyzes the records to calculate ea
 
 ## 3. My Results.
 
-My final script prints the analysis to the terminal and export a text file with the results.
+My final script prints the analysis to the terminal and exports a text file with the results.
 * [Python Code with comments for this assignment is here! (PyBank).](/PyBank/main.ipynb)
 * [The exported results for this assignment are here. (financial_analysis.txt)](/Output/pybank_analysis.txt) 
 
