@@ -18,9 +18,9 @@ Your task is to create a Python script that analyzes the records to calculate ea
 * The greatest decrease in losses (date and amount) over the entire period.
 
 
-## 3. Final Results.
+## 3. My Results.
 
-Your final script should print the analysis to the terminal and export a text file with the results.
+My final script prints the analysis to the terminal and export a text file with the results.
 * [Python Code with comments for this assignment is here! (PyBank).](/PyBank/main.ipynb)
 * [The exported results for this assignment are here. (financial_analysis.txt)](/Output/pybank_analysis.txt) 
 
