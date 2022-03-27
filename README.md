@@ -25,5 +25,5 @@ Your task is to create a Python script that analyzes the [records](/PyBank/DataF
     * [Exported results](/Output/pybank_analysis.txt) 
 * [PyRamen](/PyRamen/) (Optional)
     * [Python Code](/PyRamen/main.ipynb)
-    * [Exported results](/PyRamen/Output/)
+    * [Exported results](/PyRamen/Output/ramen_report.txt)
 
