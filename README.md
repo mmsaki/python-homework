@@ -1,6 +1,6 @@
 # PyBank & PyRamen with Python
 
-## 1. PyBank
+## 1. PyBank 💰
 
 Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv to calculate each of the following:
 
