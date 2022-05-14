@@ -4,10 +4,17 @@
 
 * Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv) to calculate each of the following:
 
-   * The total number of months included in the dataset.
-
-   * The net total amount of Profit/Losses over the entire period.
-
+   * The total number of months and Profit/Losses included in the dataset. 
+   * First create empty lists to append our data 
+   ```python
+   # Create empty 'month_list' and 'profit_list' list
+   month_list = [] 
+   profit_list = []
+   
+   # Creating 'total_months' and 'total_profits' variables and set to 0
+   total_months = 0 
+   total_profits = 0
+   ```
    * The average of the changes in Profit/Losses over the entire period.
 
    * The greatest increase in profits (date and amount) over the entire period.
