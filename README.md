@@ -2,7 +2,7 @@
 
 ## 1. PyBank 💰
 
-Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv to calculate each of the following:
+Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv) to calculate each of the following:
 
 * The total number of months included in the dataset.
 
