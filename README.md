@@ -11,7 +11,7 @@
    month_list = [] 
    profit_list = []
    
-   # Creating 'total_months' and 'total_profits' variables and set to 0
+   # Create 'total_months' and 'total_profits' variables and set to 0
    total_months = 0 
    total_profits = 0
    ```
