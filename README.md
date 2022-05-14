@@ -2,17 +2,17 @@
 
 ## 1. PyBank 💰
 
-Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv) to calculate each of the following:
+* Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv) to calculate each of the following:
 
-* The total number of months included in the dataset.
+   * The total number of months included in the dataset.
 
-* The net total amount of Profit/Losses over the entire period.
+   * The net total amount of Profit/Losses over the entire period.
 
-* The average of the changes in Profit/Losses over the entire period.
+   * The average of the changes in Profit/Losses over the entire period.
 
-* The greatest increase in profits (date and amount) over the entire period.
+   * The greatest increase in profits (date and amount) over the entire period.
 
-* The greatest decrease in losses (date and amount) over the entire period.
+   * The greatest decrease in losses (date and amount) over the entire period.
 
 ## 2. PyRamen 🍜
 * Opening a ramen shop has always been your dream, and now it's finally been realized––you're closing out on your second year of sales! Like last year, you need to analyze your business's financial performance by cross-referencing your [sales data](./PyRamen/Resources/sales_data.csv) with your internal [menu data](./PyRamen/Resources/menu_data.csv to figure out revenues and costs for the year.
