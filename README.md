@@ -4,17 +4,17 @@
 
 * Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv)
    * To run this code you would need `pathlib` and `csv` libraries
-   * The total number of months and Profit/Losses included in the dataset. 
-   * First create empty lists to append our data 
-   ```python
-   # Create empty 'month_list' and 'profit_list' list
-   month_list = [] 
-   profit_list = []
-   
-   # Create 'total_months' and 'total_profits' variables and set to 0
-   total_months = 0 
-   total_profits = 0
-   ```
+   * Calculate total number of months and Profit/Losses included in the dataset. 
+    * First create empty lists to append our data 
+    ```python
+    # Create empty 'month_list' and 'profit_list' list
+    month_list = [] 
+    profit_list = []
+
+    # Create 'total_months' and 'total_profits' variables and set to 0
+    total_months = 0 
+    total_profits = 0
+    ```
    * Read the the data and iterate through it using a for loop
    ```python
    # Open budget_data.csv
@@ -31,7 +31,7 @@
         total_months +=len(row[0]) 
         total_profits += int(row[9:])
    ```
-   * The average of the changes in Profit/Losses over the entire period.
+   * Calculate average of the changes in Profit/Losses over the entire period.
    ```python
    # Set variable 'change_in_pnl' to store change in profits and losses list 
    change_in_pnl = [int(current_month) - int(previous_month) for previous_month, current_month in zip(profit_list, profit_list[1:])] 
