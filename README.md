@@ -5,7 +5,7 @@
 * Your task is to create a Python script that analyzes the [records](./PyBank/Resources/budget_data.csv)
    * To run this code you would need `pathlib` and `csv` libraries
    * Calculate total number of months and Profit/Losses included in the dataset. 
-    * First create empty lists to append our data 
+        * First create empty lists to append our data 
     ```python
     # Create empty 'month_list' and 'profit_list' list
     month_list = [] 
@@ -32,20 +32,20 @@
         total_profits += int(row[9:])
    ```
    * Calculate average of the changes in Profit/Losses over the entire period.
-   ```python
-   # Set variable 'change_in_pnl' to store change in profits and losses list 
-   change_in_pnl = [int(current_month) - int(previous_month) for previous_month, current_month in zip(profit_list, profit_list[1:])] 
+    ```python
+    # Set variable 'change_in_pnl' to store change in profits and losses list 
+    change_in_pnl = [int(current_month) - int(previous_month) for previous_month, current_month in zip(profit_list, profit_list[1:])] 
 
-   # Sort the change in Profits/Losses 
-   change_sorted = sorted(change_in_pnl) 
-   average = round(sum(change_in_pnl)/len(change_in_pnl),2)   
-   ```
+    # Sort the change in Profits/Losses 
+    change_sorted = sorted(change_in_pnl) 
+    average = round(sum(change_in_pnl)/len(change_in_pnl),2)   
+    ```
    * The greatest increase and decrease in profits (date and amount) over the entire period.
-   ```python
-   # Set variables for the greatest profit month and the loss month using our sorted list
-   profit_month = change_in_pnl.index(change_sorted[-1]) + 1
-   loss_month = change_in_pnl.index(change_sorted[0]) + 1 
-   ```
+    ```python
+    # Set variables for the greatest profit month and the loss month using our sorted list
+    profit_month = change_in_pnl.index(change_sorted[-1]) + 1
+    loss_month = change_in_pnl.index(change_sorted[0]) + 1 
+    ```
 
 ## 2. PyRamen 🍜
 * Opening a ramen shop has always been your dream, and now it's finally been realized––you're closing out on your second year of sales! Like last year, you need to analyze your business's financial performance by cross-referencing your [sales data](./PyRamen/Resources/sales_data.csv) with your internal [menu data](./PyRamen/Resources/menu_data.csv to figure out revenues and costs for the year.
